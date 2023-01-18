@@ -9,8 +9,8 @@ import Responsive from "../home/Responsive/Responsive-main"
 export default function HomePage() {
     return (
         <>
+            <Header />
             <div className={styles.main}>
-                <Header />
                 <Responsive />
                 <Sidebar />
                 <Search />
