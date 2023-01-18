@@ -1,15 +1,16 @@
-import Header from "../components/home/Header/Header"
-import Sidebar from "../components/home/Sidebar/Sidebar"
-import Search from "../components/home/Search-stocks/Search-stocks"
-import Main from "../components/home/Main-stocks/Main-stocks"
+import Head from "next/head";
 
-const Home = ()=>{
-    return(
+import HomePage from "../components/layout/Homepage";
+
+const Home = () => {
+    return (
         <>
-        <Header/>
-        <Sidebar/>
-        <Search/>
-        <Main/>
+            <Head>
+                <title>tradevalue</title>
+                {/* <meta name='description' content='Nabeel - Full Stack Developer' />
+                <link rel='icon' href='/favicon.ico' /> */}
+            </Head>
+            <HomePage />
         </>
     )
 }

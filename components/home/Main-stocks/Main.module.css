@@ -91,3 +91,13 @@
     width: 2.5rem;
     height: 2rem;
 }
+
+@media (max-width: 768px) {
+    .section3 {
+        margin-top: 60rem;
+    }
+
+    .section3>.orders {
+        display: none;
+    }
+}

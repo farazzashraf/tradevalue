@@ -59,4 +59,11 @@
 .section2>.stocks>div>div {
     display: flex;
     gap: 1.5rem;
+    margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+    .section2 {
+        display: none;
+    }
 }
