@@ -5,7 +5,7 @@ import styles from './Responsive-main.module.css'
 
 export default function Responsive() {
     return (
-        <>
+        <div className={styles.main_responsive}>
             <div className={styles.stocks_insight}>
                 <Link className={styles.link} href="#">
                     <div className={styles.stocks}>
@@ -19,11 +19,11 @@ export default function Responsive() {
                 </Link>
             </div>
             <div className={styles.pages}>
+                <p>Page 1 of 11</p>
                 <div>
-                    <p>Page 1 of 11</p>
                     <AiOutlineArrowRight className={styles.arrow} />
                 </div>
             </div>
-        </>
+        </div>
     )
 }

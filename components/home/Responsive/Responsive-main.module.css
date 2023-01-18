@@ -1,42 +1,46 @@
-.stocks_insight {
+.main_responsive>.stocks_insight {
     display: none;
 }
 
-.pages {
+.main_responsive>.pages {
     display: none;
 }
 
 
 @media (max-width: 768px) {
-    .stocks_insight {
+    .main_responsive {
+        /* background-color: rgba(121, 0, 0, 0.402); */
+    }
+
+    .main_responsive>.stocks_insight {
         position: relative;
         top: 30rem;
-        left: 3.8rem;
+        left: 4.2rem;
         display: flex;
         align-items: center;
         gap: 13.2rem;
     }
 
-    .stocks_insight>.link {
+    .main_responsive>.stocks_insight>.link {
         text-decoration: none;
     }
 
-    .stocks_insight>.link>div {
+    .main_responsive>.stocks_insight>.link>div {
         padding: 0.1rem 9rem;
         border-radius: 18px;
         width: 100%;
-        max-width: 25rem;
+        max-width: 20rem;
     }
 
-    .stocks_insight>.link>.stocks {
+    .main_responsive>.stocks_insight>.link>.stocks {
         background-color: var(--bg-responsive-color);
         color: rgb(255, 255, 255);
 
     }
 
-    .stocks_insight>.link>.insights {
+    .main_responsive>.stocks_insight>.link>.insights {
         background-color: rgba(136, 0, 209, 0.174);
-        /* margin-left: 12.2rem; */
+        margin-left: -4.8rem;
         backdrop-filter: blur(1px);
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
@@ -44,22 +48,41 @@
 
     }
 
-    .stocks_insight>.link>div>p {
+    .main_responsive>.stocks_insight>.link>div>p {
         text-align: center;
         font-size: 3rem;
         text-transform: uppercase;
     }
 
-    .pages {
+    .main_responsive>.pages {
+        position: relative;
+        top: 35.5rem;
+        left: 3.5rem;
         display: flex;
         align-items: center;
-        position: relative;
-        top: 45rem;
-        right: 25rem;
+        justify-content: center;
+        gap: 47rem;
+        background-color: rgba(128, 128, 128, 0.221);
+        border-radius: 26px;
+        height: 5rem;
+        padding: 1.5rem 0;
+        opacity: 0.8;
     }
 
-    .pages>div {
+    .main_responsive>.pages>p {
         font-size: 3rem;
+        color: black;
+        position: relative;
+        left: 25rem;
+    }
+
+    .main_responsive>.pages>div>.arrow {
+        width: 3rem;
+        height: 5rem;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        border-radius: 50%;
+        padding: 0 1rem;
     }
 
 }

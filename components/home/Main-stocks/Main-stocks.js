@@ -32,11 +32,11 @@ export default function Main() {
 }
 
 const Option = () => (
-    <div className={styles.mainstocks}>
+    <div className={styles["mainstocks"]} >
         <div>
             <div>
-                <div>
-                    <img src="./images/muthoot.png" alt="" />
+                <div className={styles.imageflex}>
+                    <img className={styles.img} src="./images/muthoot.png" alt="" />
                     <div>
                         <p>Muthoot Finance</p>
                         <h5>&#8377;1,091.70</h5>

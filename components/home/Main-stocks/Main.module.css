@@ -1,4 +1,3 @@
-
 .section3 {
     /* max-width: 60%; */
     position: absolute;
@@ -95,9 +94,51 @@
 @media (max-width: 768px) {
     .section3 {
         margin-top: 60rem;
+        /* width: 100%; */
     }
 
     .section3>.orders {
         display: none;
     }
+
+    .section3>.mainstocks {
+        margin-left: -19rem;
+        margin-top: -8rem;
+    }
+
+    .section3>.mainstocks>div {
+        border-radius: 18px;
+        width: 75rem;
+        padding: 0 3rem;
+        margin: 6rem 0;
+    }
+
+    .section3>.mainstocks>div>p {
+        margin-top: -4rem;
+        font-size: 3rem;
+    }
+
+    .section3>.mainstocks>div>div>div>div>h5 {
+        font-size: 3.5rem;
+    }
+
+    .section3>.mainstocks>div>div>div>h6 {
+        font-size: 2.5rem;
+    }
+
+    .section3>.mainstocks>div>div>div>span {
+        font-size: 3rem;
+    }
+
+    .section3>.mainstocks>div>div>div>div>p {
+        font-size: 2.9rem;
+        position: relative;
+        top: 0.5rem;
+    }
+
+    .section3>.mainstocks>div>div>div>img {
+        width: 7.5rem;
+        height: 5rem;
+    }
+
 }

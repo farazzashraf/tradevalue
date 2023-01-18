@@ -22,6 +22,7 @@
 }
 
 @media (max-width: 768px) {
+
   .div {
     background-color: rgb(17, 0, 31);
     height: 28rem;
@@ -64,6 +65,8 @@
   }
 
   .headericon2 {
+    position: fixed;
+    left: 19rem;
     display: flex;
     justify-content: center;
     gap: 35rem;
