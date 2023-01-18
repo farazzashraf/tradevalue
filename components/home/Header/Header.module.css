@@ -66,10 +66,10 @@
 
   .headericon2 {
     position: fixed;
-    left: 19rem;
+    left: 17rem;
     display: flex;
     justify-content: center;
-    gap: 35rem;
+    gap: 30rem;
     margin-top: 2rem;
   }
 
