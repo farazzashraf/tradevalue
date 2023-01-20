@@ -102,24 +102,24 @@
     }
 
     .section3>.mainstocks {
-        margin-left: -19rem;
+        margin-left: -22rem;
         margin-top: -8rem;
     }
 
     .section3>.mainstocks>div {
-        border-radius: 18px;
-        width: 75rem;
+        border-radius: 28px;
+        width: 71rem;
         padding: 0 3rem;
         margin: 6rem 0;
     }
 
     .section3>.mainstocks>div>p {
         margin-top: -4rem;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .section3>.mainstocks>div>div>div>div>h5 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .section3>.mainstocks>div>div>div>h6 {
@@ -127,7 +127,7 @@
     }
 
     .section3>.mainstocks>div>div>div>span {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .section3>.mainstocks>div>div>div>div>p {
@@ -137,7 +137,7 @@
     }
 
     .section3>.mainstocks>div>div>div>img {
-        width: 7.5rem;
+        width: 6.5rem;
         height: 5rem;
     }
 
