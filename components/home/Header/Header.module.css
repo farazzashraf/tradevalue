@@ -26,6 +26,7 @@
   .div {
     background-color: rgb(17, 0, 31);
     height: 28rem;
+    width: 100%;
   }
 
   .menuflex {
@@ -66,16 +67,16 @@
 
   .headericon2 {
     position: fixed;
-    left: 17rem;
+    left: 20rem;
     display: flex;
     justify-content: center;
-    gap: 30rem;
+    gap: 15rem;
     margin-top: 2rem;
   }
 
   .icon2 {
     color: white;
-    width: 6rem;
+    width: 5rem;
     height: auto;
   }
 
@@ -87,7 +88,7 @@
 
   .headericon2>div>p {
     color: white;
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-top: 0.9rem;
   }
 }

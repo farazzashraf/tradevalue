@@ -4,7 +4,7 @@ import styles from './Search-stocks.module.css'
 export default function Search() {
     return (
         <section className={styles.section2}>
-            <div>
+            <div className={styles.input}>
                 <input type='text' placeholder="🔎 Search">
                 </input>
             </div>

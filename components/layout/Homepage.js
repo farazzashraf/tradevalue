@@ -8,16 +8,18 @@ import Responsive from "../home/Responsive/Responsive-main"
 
 export default function HomePage() {
     return (
-        <>
+        <div>
             <Header />
             <div className={styles.main}>
-                <Responsive />
-                <Sidebar />
-                <Search />
-                <Main />
+                <div className={styles["section1-2"]}>
+                    <Responsive />
+                    <Sidebar />
+                    <Search />
+                </div>
+                <div>
+                    <Main />
+                </div>
             </div>
-            <div>
-            </div>
-        </>
+        </div>
     )
 }
