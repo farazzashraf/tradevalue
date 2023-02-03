@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     /* gap: 5rem; */
+    /* display: none; */
 }
 
 .section3 {
@@ -47,13 +48,17 @@
     background-color: rgba(128, 128, 128, 0.139);
     border-radius: 8px;
     padding: 0.3rem 1rem;
-    height: 6.5rem;
+    height: 6rem;
+}
+
+.section3 .mainstocks>div>div {
+    margin-top: 0.1rem;
 }
 
 .section3 .mainstocks>p {
     text-align: center;
     color: black;
-    margin-top: -0.8rem;
+    margin-top: -1.3rem;
 }
 
 .mainstocks-main .mainstocks .image {
@@ -71,13 +76,14 @@
 .mainstocks-main .mainstocks .image img {
     width: 2.5rem;
     height: 2rem;
+    margin-top: 0rem;
 }
 
 .mainstocks-main .mainstocks .image .stock-name>p {
     font-size: 1.3rem;
 }
 
-.mainstocks-main .mainstocks .image .stock-name>span {
+.mainstocks-main .mainstocks .image .stock-name span {
     font-weight: bold;
     font-size: 1.7rem;
     color: black;
@@ -99,34 +105,63 @@
 }
 
 @media (max-width: 768px) {
+    .hr {
+        display: none;
+    }
+
+    .section3-flex {
+        display: block;
+    }
+
     .section3 {
-        margin-top: 60rem;
-        /* width: 100%; */
+        z-index: -1;
+        position: relative;
+        top: 14rem;
+        width: 100%;
     }
 
     .section3>.orders {
         display: none;
     }
 
+    .mainstocks-main {
+        /* align-items: center; */
+        width: 100%;
+        padding: 0;
+    }
+
     .mainstocks-main .mainstocks {
-        margin-left: 0;
-        margin-top: -8rem;
+        height: 100%;
+        position: relative;
+        /* right: 2rem; */
+        padding: 0 1rem;
+    }
+
+    .mainstocks-main .mainstocks>div>div {
+        margin-top: 1rem;
     }
 
     .mainstocks-main .mainstocks>div {
-        border-radius: 28px;
-        padding: 0 3rem;
-        margin: 6rem 0;
     }
 
-    .mainstocks-main .mainstocks>div>p {
-        margin-top: -4rem;
-        font-size: 2.5rem;
+    .mainstocks-main .mainstocks .image .stock-name>p {
+        font-size: 1rem;
+    }
+
+    .mainstocks-main .mainstocks .image .stock-name>span {
+        font-size: 1.1rem;
+    }
+
+    .section3 .mainstocks>p {
+        position: relative;
+        /* left: 4rem; */
+        margin-top: -1.9rem;
+    }
+
+    .mainstocks-main .mainstocks .percentage {
+        gap: 1rem;
+        position: relative;
+        top: -0.4rem;
     }
     
-    .mainstocks-main .mainstocks .image>img {
-        width: 6.5rem;
-        height: 5rem;
-    }
-
 }

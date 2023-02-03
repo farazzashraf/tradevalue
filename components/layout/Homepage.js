@@ -11,8 +11,8 @@ export default function HomePage() {
         <div>
             <Header />
             <div className={styles.main}>
+                <Responsive />
                 <div className={styles["section1-2"]}>
-                    <Responsive />
                     <Sidebar />
                     <Search />
                 </div>

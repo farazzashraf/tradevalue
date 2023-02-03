@@ -10,21 +10,19 @@ export default function Responsive() {
             <div className={styles.stocks_insight}>
                 <Link className={styles.link} href="#">
                     <div className={styles.stocks}>
-                        <p>Stocks</p>
+                        Stocks
                     </div>
                 </Link>
                 <Link className={styles.link} href="#">
                     <div className={styles.insights}>
-                        <p>Insights</p>
+                        Insights
                     </div>
                 </Link>
             </div>
             <div className={styles['pages-sortby']}>
                 <div className={styles.pages}>
                     <p>Page 1 of 11</p>
-                    <div>
-                        <AiOutlineArrowRight className={styles.arrow} />
-                    </div>
+                    <AiOutlineArrowRight className={styles.arrow} />
                 </div>
                 <div className={styles.sortby}>
                     <AiOutlineArrowDown className={styles.arrowdown} />

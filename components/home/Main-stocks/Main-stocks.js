@@ -24,14 +24,6 @@ export default function Main() {
                     <Option />
                     <Option />
                     <Option />
-                    <Option />
-                    <Option />
-                    <Option />
-                    <Option />
-                    <Option />
-                    <Option />
-                    <Option />
-                    <Option />
                 </div>
             </section>
         </div>
@@ -42,11 +34,13 @@ const Option = () => (
     <div className={styles["mainstocks-main"]} >
         <div className={styles.mainstocks}>
             <div>
-                <div className={styles.image}>
-                    <img className={styles.img} src="./images/muthoot.png" alt="" />
-                    <div className={styles["stock-name"]}>
-                        <p>Muthoot Finance</p>
-                        <span>&#8377;1,091.70</span>
+                <div>
+                    <div className={styles.image}>
+                        <img className={styles.img} src="./images/muthoot.png" alt="" />
+                        <div className={styles["stock-name"]}>
+                            <p>Muthoot Finance</p>
+                            <span>&#8377;1,091.70</span>
+                        </div>
                     </div>
                 </div>
                 <div className={styles.percentage}>
@@ -57,5 +51,5 @@ const Option = () => (
             </div>
             <p>Financial Services</p>
         </div>
-    </div>
+    </div >
 )
